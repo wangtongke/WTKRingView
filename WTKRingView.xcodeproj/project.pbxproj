@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F578D0261D49EDEC0073FEBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D0251D49EDEC0073FEBF /* AppDelegate.swift */; };
+		F578D0281D49EDEC0073FEBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D0271D49EDEC0073FEBF /* ViewController.swift */; };
+		F578D02B1D49EDEC0073FEBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F578D0291D49EDEC0073FEBF /* Main.storyboard */; };
+		F578D02D1D49EDEC0073FEBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F578D02C1D49EDEC0073FEBF /* Assets.xcassets */; };
+		F578D0301D49EDEC0073FEBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F578D02E1D49EDEC0073FEBF /* LaunchScreen.storyboard */; };
+		F578D03B1D49EDEC0073FEBF /* WTKRingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D03A1D49EDEC0073FEBF /* WTKRingViewTests.swift */; };
+		F578D0461D49EDEC0073FEBF /* WTKRingViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D0451D49EDEC0073FEBF /* WTKRingViewUITests.swift */; };
+		F578D0541D49EE0C0073FEBF /* WTKRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D0531D49EE0C0073FEBF /* WTKRingView.swift */; };
+		F578D0941D49F2790073FEBF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = F578D0911D49F2790073FEBF /* 1.png */; };
+		F578D0951D49F2790073FEBF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F578D0921D49F2790073FEBF /* 2.png */; };
+		F578D0961D49F2790073FEBF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F578D0931D49F2790073FEBF /* 3.png */; };
+		F578D0D01D49F6EA0073FEBF /* WTKRingViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F578D0CE1D49F6EA0073FEBF /* WTKRingViewCell.swift */; };
+		F578D0D11D49F6EA0073FEBF /* WTKRingViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F578D0CF1D49F6EA0073FEBF /* WTKRingViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F578D0371D49EDEC0073FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F578D01A1D49EDEC0073FEBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F578D0211D49EDEC0073FEBF;
+			remoteInfo = WTKRingView;
+		};
+		F578D0421D49EDEC0073FEBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F578D01A1D49EDEC0073FEBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F578D0211D49EDEC0073FEBF;
+			remoteInfo = WTKRingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F578D0221D49EDEC0073FEBF /* WTKRingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WTKRingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F578D0251D49EDEC0073FEBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F578D0271D49EDEC0073FEBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F578D02A1D49EDEC0073FEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F578D02C1D49EDEC0073FEBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F578D02F1D49EDEC0073FEBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F578D0311D49EDEC0073FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F578D0361D49EDEC0073FEBF /* WTKRingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKRingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F578D03A1D49EDEC0073FEBF /* WTKRingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKRingViewTests.swift; sourceTree = "<group>"; };
+		F578D03C1D49EDEC0073FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F578D0411D49EDEC0073FEBF /* WTKRingViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WTKRingViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F578D0451D49EDEC0073FEBF /* WTKRingViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTKRingViewUITests.swift; sourceTree = "<group>"; };
+		F578D0471D49EDEC0073FEBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F578D0531D49EE0C0073FEBF /* WTKRingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKRingView.swift; sourceTree = "<group>"; };
+		F578D0911D49F2790073FEBF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		F578D0921D49F2790073FEBF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		F578D0931D49F2790073FEBF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		F578D0CE1D49F6EA0073FEBF /* WTKRingViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WTKRingViewCell.swift; sourceTree = "<group>"; };
+		F578D0CF1D49F6EA0073FEBF /* WTKRingViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTKRingViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F578D01F1D49EDEC0073FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D0331D49EDEC0073FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D03E1D49EDEC0073FEBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F578D0191D49EDEC0073FEBF = {
+			isa = PBXGroup;
+			children = (
+				F578D0241D49EDEC0073FEBF /* WTKRingView */,
+				F578D0391D49EDEC0073FEBF /* WTKRingViewTests */,
+				F578D0441D49EDEC0073FEBF /* WTKRingViewUITests */,
+				F578D0231D49EDEC0073FEBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F578D0231D49EDEC0073FEBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F578D0221D49EDEC0073FEBF /* WTKRingView.app */,
+				F578D0361D49EDEC0073FEBF /* WTKRingViewTests.xctest */,
+				F578D0411D49EDEC0073FEBF /* WTKRingViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F578D0241D49EDEC0073FEBF /* WTKRingView */ = {
+			isa = PBXGroup;
+			children = (
+				F578D0911D49F2790073FEBF /* 1.png */,
+				F578D0921D49F2790073FEBF /* 2.png */,
+				F578D0931D49F2790073FEBF /* 3.png */,
+				F578D0251D49EDEC0073FEBF /* AppDelegate.swift */,
+				F578D0271D49EDEC0073FEBF /* ViewController.swift */,
+				F578D0531D49EE0C0073FEBF /* WTKRingView.swift */,
+				F578D0CE1D49F6EA0073FEBF /* WTKRingViewCell.swift */,
+				F578D0CF1D49F6EA0073FEBF /* WTKRingViewCell.xib */,
+				F578D0291D49EDEC0073FEBF /* Main.storyboard */,
+				F578D02C1D49EDEC0073FEBF /* Assets.xcassets */,
+				F578D02E1D49EDEC0073FEBF /* LaunchScreen.storyboard */,
+				F578D0311D49EDEC0073FEBF /* Info.plist */,
+			);
+			path = WTKRingView;
+			sourceTree = "<group>";
+		};
+		F578D0391D49EDEC0073FEBF /* WTKRingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F578D03A1D49EDEC0073FEBF /* WTKRingViewTests.swift */,
+				F578D03C1D49EDEC0073FEBF /* Info.plist */,
+			);
+			path = WTKRingViewTests;
+			sourceTree = "<group>";
+		};
+		F578D0441D49EDEC0073FEBF /* WTKRingViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F578D0451D49EDEC0073FEBF /* WTKRingViewUITests.swift */,
+				F578D0471D49EDEC0073FEBF /* Info.plist */,
+			);
+			path = WTKRingViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F578D0211D49EDEC0073FEBF /* WTKRingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F578D04A1D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingView" */;
+			buildPhases = (
+				F578D01E1D49EDEC0073FEBF /* Sources */,
+				F578D01F1D49EDEC0073FEBF /* Frameworks */,
+				F578D0201D49EDEC0073FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WTKRingView;
+			productName = WTKRingView;
+			productReference = F578D0221D49EDEC0073FEBF /* WTKRingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F578D0351D49EDEC0073FEBF /* WTKRingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F578D04D1D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingViewTests" */;
+			buildPhases = (
+				F578D0321D49EDEC0073FEBF /* Sources */,
+				F578D0331D49EDEC0073FEBF /* Frameworks */,
+				F578D0341D49EDEC0073FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F578D0381D49EDEC0073FEBF /* PBXTargetDependency */,
+			);
+			name = WTKRingViewTests;
+			productName = WTKRingViewTests;
+			productReference = F578D0361D49EDEC0073FEBF /* WTKRingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F578D0401D49EDEC0073FEBF /* WTKRingViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F578D0501D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingViewUITests" */;
+			buildPhases = (
+				F578D03D1D49EDEC0073FEBF /* Sources */,
+				F578D03E1D49EDEC0073FEBF /* Frameworks */,
+				F578D03F1D49EDEC0073FEBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F578D0431D49EDEC0073FEBF /* PBXTargetDependency */,
+			);
+			name = WTKRingViewUITests;
+			productName = WTKRingViewUITests;
+			productReference = F578D0411D49EDEC0073FEBF /* WTKRingViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F578D01A1D49EDEC0073FEBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "王同科";
+				TargetAttributes = {
+					F578D0211D49EDEC0073FEBF = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F578D0351D49EDEC0073FEBF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F578D0211D49EDEC0073FEBF;
+					};
+					F578D0401D49EDEC0073FEBF = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F578D0211D49EDEC0073FEBF;
+					};
+				};
+			};
+			buildConfigurationList = F578D01D1D49EDEC0073FEBF /* Build configuration list for PBXProject "WTKRingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F578D0191D49EDEC0073FEBF;
+			productRefGroup = F578D0231D49EDEC0073FEBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F578D0211D49EDEC0073FEBF /* WTKRingView */,
+				F578D0351D49EDEC0073FEBF /* WTKRingViewTests */,
+				F578D0401D49EDEC0073FEBF /* WTKRingViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F578D0201D49EDEC0073FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F578D0301D49EDEC0073FEBF /* LaunchScreen.storyboard in Resources */,
+				F578D0951D49F2790073FEBF /* 2.png in Resources */,
+				F578D0961D49F2790073FEBF /* 3.png in Resources */,
+				F578D02D1D49EDEC0073FEBF /* Assets.xcassets in Resources */,
+				F578D0D11D49F6EA0073FEBF /* WTKRingViewCell.xib in Resources */,
+				F578D0941D49F2790073FEBF /* 1.png in Resources */,
+				F578D02B1D49EDEC0073FEBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D0341D49EDEC0073FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D03F1D49EDEC0073FEBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F578D01E1D49EDEC0073FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F578D0281D49EDEC0073FEBF /* ViewController.swift in Sources */,
+				F578D0D01D49F6EA0073FEBF /* WTKRingViewCell.swift in Sources */,
+				F578D0261D49EDEC0073FEBF /* AppDelegate.swift in Sources */,
+				F578D0541D49EE0C0073FEBF /* WTKRingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D0321D49EDEC0073FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F578D03B1D49EDEC0073FEBF /* WTKRingViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F578D03D1D49EDEC0073FEBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F578D0461D49EDEC0073FEBF /* WTKRingViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F578D0381D49EDEC0073FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F578D0211D49EDEC0073FEBF /* WTKRingView */;
+			targetProxy = F578D0371D49EDEC0073FEBF /* PBXContainerItemProxy */;
+		};
+		F578D0431D49EDEC0073FEBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F578D0211D49EDEC0073FEBF /* WTKRingView */;
+			targetProxy = F578D0421D49EDEC0073FEBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F578D0291D49EDEC0073FEBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F578D02A1D49EDEC0073FEBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F578D02E1D49EDEC0073FEBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F578D02F1D49EDEC0073FEBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F578D0481D49EDEC0073FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F578D0491D49EDEC0073FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F578D04B1D49EDEC0073FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTKRingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F578D04C1D49EDEC0073FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = WTKRingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		F578D04E1D49EDEC0073FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKRingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKRingView.app/WTKRingView";
+			};
+			name = Debug;
+		};
+		F578D04F1D49EDEC0073FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WTKRingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WTKRingView.app/WTKRingView";
+			};
+			name = Release;
+		};
+		F578D0511D49EDEC0073FEBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKRingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKRingView;
+			};
+			name = Debug;
+		};
+		F578D0521D49EDEC0073FEBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WTKRingViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wang.WTKRingViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WTKRingView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F578D01D1D49EDEC0073FEBF /* Build configuration list for PBXProject "WTKRingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F578D0481D49EDEC0073FEBF /* Debug */,
+				F578D0491D49EDEC0073FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F578D04A1D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F578D04B1D49EDEC0073FEBF /* Debug */,
+				F578D04C1D49EDEC0073FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F578D04D1D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F578D04E1D49EDEC0073FEBF /* Debug */,
+				F578D04F1D49EDEC0073FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F578D0501D49EDEC0073FEBF /* Build configuration list for PBXNativeTarget "WTKRingViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F578D0511D49EDEC0073FEBF /* Debug */,
+				F578D0521D49EDEC0073FEBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F578D01A1D49EDEC0073FEBF /* Project object */;
+}
