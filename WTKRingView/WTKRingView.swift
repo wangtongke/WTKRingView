@@ -12,6 +12,8 @@ class WTKRingView: UIView,UIScrollViewDelegate,UICollectionViewDelegate,UICollec
 
     var imageArray          : NSMutableArray?
     
+    var isHasData           = false
+    
     var collectionView      : UICollectionView?
     var isDragging           = false  //判断当前是否正在拖拽collectionView
     var timer               : NSTimer?
@@ -52,6 +54,8 @@ class WTKRingView: UIView,UIScrollViewDelegate,UICollectionViewDelegate,UICollec
     
 //    刷新轮播图
     func refreshRingView(imgArray:NSArray){
+        self.isHasData = true
+        
         self.imageArray = imgArray.mutableCopy() as? NSMutableArray
         
         let first = imageArray?.firstObject
@@ -61,10 +65,6 @@ class WTKRingView: UIView,UIScrollViewDelegate,UICollectionViewDelegate,UICollec
         
         self.collectionView?.reloadData()
         self.collectionView?.contentOffset = CGPointMake(kWIDTH, 0)
-        
-        timer = NSTimer.init(timeInterval: 2, target: self, selector: #selector(WTKRingView.timermethod), userInfo: "", repeats: true)
-        NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSDefaultRunLoopMode)
-        timer?.fireDate = NSDate.distantPast()
         
     }
     
@@ -117,16 +117,27 @@ class WTKRingView: UIView,UIScrollViewDelegate,UICollectionViewDelegate,UICollec
     }
     
     
-//    timerMethod
+//  MARK: -   timerMethod
     func timermethod()
     {
-        if isDragging
+        if isDragging || !isHasData
         {
             return
         }
         var offset = collectionView?.contentOffset
         offset?.x += kWIDTH
         collectionView?.setContentOffset(offset!, animated: true)
+    }
+    
+    func endTimer(){
+        timer?.invalidate()
+        timer?.fireDate = NSDate.distantFuture()
+    }
+    
+    func startTimer(){
+        timer = NSTimer.init(timeInterval: 2, target: self, selector: #selector(WTKRingView.timermethod), userInfo: "", repeats: true)
+        NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSDefaultRunLoopMode)
+        timer?.fireDate = NSDate.distantPast()
     }
     
     
